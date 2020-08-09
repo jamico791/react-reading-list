@@ -1,0 +1,59 @@
+html {
+	background: #f1f1f1;
+}
+
+.title {
+	text-align: center;
+}
+
+.list-item {
+	list-style-type: none;
+	margin-right: 1rem;
+}
+
+.book-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 70%;
+}
+
+.content {
+	display: flex;
+	height: 60vh;
+}
+
+.info {
+	width: 30%;
+	border: 2px solid black;
+	text-align: center;
+	background: #d1d1d1;
+	height: 80%;
+}
+
+.delete-button {
+	margin-left: 2px;
+	background: rgb(253, 11, 11);
+	color: white;
+	padding: 0px 15px;
+}
+
+.delete-button:focus {
+	color: white;
+}
+
+form {
+	margin-top: 2rem;
+}
+
+.hidden {
+	display: none;
+}
+
+.shown {
+	display: inline;
+}
+
+.cancel-button {
+	margin-left: 1rem;
+}
